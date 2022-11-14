@@ -6,5 +6,8 @@ object Geeks
 	{
 		//prints Hello World
 		println("Hello World by " + args(0))
+		for(a <-1 to 10){
+			println("valeur de a :" + a)
+		}
 	}
 }
