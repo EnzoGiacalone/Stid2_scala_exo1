@@ -6,7 +6,9 @@ object Geeks
 	{
 		//prints Hello World
 		println("Hello World by " + args(0))
-		for(a <-1 to 10){
+
+		var val1 = args(1).toInt
+		for(a <-1 to val1){
 			println("valeur de a :" + a)
 		}
 	}
