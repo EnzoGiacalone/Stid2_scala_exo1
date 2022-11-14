@@ -5,15 +5,6 @@ object Geeks
 	def main(args:Array[String])
 	{
 		//prints Hello World
-		println("Hello World !")
-		var var3 = 2
-		if(var3 == 1) 
-			{
-			println("True")
-			}
-		else
-			{
-			println("False")
-			}
-	}	
+		println("Hello World by " + args(0))
+	}
 }
