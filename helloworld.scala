@@ -3,6 +3,7 @@ object Geeks
 {
 	// Main Method
 	def multi10(m:Int):Int=m*10  
+	def multi(m:Int,n:Int):Int=m*n
 	def main(args:Array[String])
 	{
 		//prints Hello World
@@ -13,6 +14,8 @@ object Geeks
 			println("valeur de a :" + a)
 		}
 	println(multi10(2))	
+	println(multi(3,5))	
+
 	}
 	
 }
