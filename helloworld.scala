@@ -28,6 +28,8 @@ object Geeks
 		val chiffre3 : List[Int] = List(1,1,2,3,2,4,5)
 		println{chiffre3 map(x => (x, chiffre3.count(_ == x)))}
 
+		val lettre1 : List[String] = List("AA","BBB","C","DDDD")
+		println{lettre1 map(x => (x, x.length))}
 
 	}
 	
