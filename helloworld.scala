@@ -29,7 +29,7 @@ object Geeks
 		println{chiffre3 map(x => (x, chiffre3.count(_ == x)))}
 
 		val lettre1 : List[String] = List("AA","BBB","C","DDDD")
-		println{lettre1 map(x => (x, x.length))}
+		println{lettre1 map(x => (x, x.length))} 
 
 	}
 	
