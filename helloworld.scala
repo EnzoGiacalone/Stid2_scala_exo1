@@ -28,6 +28,9 @@ object Geeks
 		val chiffre3 : List[Int] = List(1,1,2,3,2,4,5)
 		println{chiffre3 map(x => (x, chiffre3.count(_ == x)))}
 
+		val chiffre4 : List[Int] = List(1,1,2,3,2,4,5)
+		println{chiffre4.groupBy(x => x).map(x=>(x._1, x._2.length))}
+
 		val lettre1 : List[String] = List("AA","BBB","C","DDDD")
 		println{lettre1 map(x => (x, x.length))} 
 
